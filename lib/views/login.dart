@@ -31,7 +31,6 @@ class _LoginViewState extends State<LoginView> {
     super.initState();
   }
 
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -74,7 +73,7 @@ class _LoginViewState extends State<LoginView> {
                         password: password,
                       );
                     },
-                    child: const Text('Register'),
+                    child: const Text('Login'),
                   ),
                 ],
               );
